@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main{
+  margin-left: 25px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  grid-auto-rows: minmax(50px, auto);
+ }
+.card{
+  width: 350px;
+  height: 170px;
+  border: 2px solid violet;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  background-color: black;
+  border-radius: 6px;
+}
+.title{
+  font-size: medium;
+}
+.desc{
+  font-size: x-small;
+}
+ .theme-color{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35px;
+    height: 35px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+.loading{
+ text-align: center;
+ margin-top: 210px;
+}
+
+button{
+  margin-top: 5px;
+}
